@@ -17,21 +17,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mtextTitleMain = findViewById(R.id.activity_main_textTitleMain);
-        mtextTeaser = findViewById(R.id.activity_main_textTeaser);
+        mtextTitleMain = findViewById(R.id.textTitleMain);
+        mtextTeaser = findViewById(R.id.textTeaser);
 
-        //methods
         stopTime();
+
     }
 
-    private void stopTime(){
+
+
+    private void stopTime() {
 
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent gameActivityIntent = new Intent(MainActivity.this, GameActivity.class);
+                Intent gameActivityIntent = new Intent(MainActivity.this, HomeActivity.class);
                 startActivity(gameActivityIntent);
+                finish();
             }
         }, 4000);
 
