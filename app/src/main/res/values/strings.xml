@@ -1,10 +1,14 @@
 <resources>
     <string name="app_name">Detective Android</string>
-    <string name="teaser">Vous êtes appelez sur une enquête pour élucider un meurtre. Soyez vigilant !</string>
+
     <string name="new_game">Nouvelle partie</string>
     <string name="continue_game">Partie sauvegardée</string>
 
     <string name="inside_hall_room">Vous êtes dans le Hall.</string>
+
+    <string name="to_kitchen_room">Vers la cuisine</string>
+    <string name="to_living_room">Vers le salon</string>
+    <string name="to_library_room">Vers la bibliothèque</string>
 
 
 </resources>

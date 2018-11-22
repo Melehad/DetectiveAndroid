@@ -16,17 +16,18 @@
         android:layout_marginTop="25dp"
         android:textColor="@color/BlackColor"
         android:textStyle="bold"
-        android:textSize="20sp"/>
+        android:textSize="30sp"
+        android:fontFamily="@font/queenfont"/>
 
-    <TextView
-        android:id="@+id/textTeaser"
+    <ImageView
+        android:id="@+id/hourglass"
         android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:text="@string/teaser"
+        android:layout_height="100dp"
+        android:src="@drawable/hourglass"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_marginBottom="25dp"
-        android:layout_marginRight="25dp"
-        android:textColor="@color/whiteColor"/>
+        android:layout_marginRight="25dp"/>
+
 
 </RelativeLayout>

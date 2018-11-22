@@ -16,7 +16,8 @@
         android:layout_marginTop="35dp"
         android:textColor="@color/BlackColor"
         android:textStyle="bold"
-        android:textSize="20sp"/>
+        android:textSize="30sp"
+        android:fontFamily="@font/queenfont"/>
 
     <Button
         android:id="@+id/textNewGame"
@@ -26,7 +27,9 @@
         android:layout_below="@+id/textTitleGame"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:textColor="@color/BlackColor"/>
+        android:textColor="@color/BlackColor"
+        android:textStyle="bold"
+        android:fontFamily="@font/century"/>
 
     <Button
         android:id="@+id/textContinueGame"
@@ -36,7 +39,9 @@
         android:layout_below="@+id/textNewGame"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:textColor="@color/BlackColor"/>
+        android:textColor="@color/BlackColor"
+        android:textStyle="bold"
+        android:fontFamily="@font/century"/>
 
 
 
