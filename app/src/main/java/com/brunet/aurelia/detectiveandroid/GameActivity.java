@@ -14,14 +14,29 @@ public class GameActivity extends AppCompatActivity {
 
     private ImageView mImgSuitcase = null;
     public boolean suitcase = false;
+    public KitchenFragment kitchenFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hall_room);
 
-        mImgSuitcase = findViewById(R.id.imgSuitcase);
-        suitcaseEmpty();
+        //mImgSuitcase = findViewById(R.id.imgSuitcase);
+        //suitcaseEmpty();
+
+        setKitchenFragment();
+    }
+
+    public void setKitchenFragment(){
+
+        if (kitchenFragment == null) {
+            kitchenFragment = new KitchenFragment();
+
+            getSupportFragmentManager().beginTransaction()
+                    .add(R.id.frag_cont, kitchenFragment)
+                    .commit();
+        }
+
     }
 
 
@@ -32,6 +47,7 @@ public class GameActivity extends AppCompatActivity {
             Log.d("Suitcase","Votre valise est pleine.");
         }
     }
+
 
 
 }

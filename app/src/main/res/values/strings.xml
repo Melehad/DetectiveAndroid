@@ -10,5 +10,8 @@
     <string name="to_living_room">Vers le salon</string>
     <string name="to_library_room">Vers la bibliothèque</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>

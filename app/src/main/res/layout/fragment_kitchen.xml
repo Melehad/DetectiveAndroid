@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KitchenFragment"
+    android:background="@drawable/hall"
+    android:id="@+id/frag">
+
+    <TextView
+        android:id="@+id/textInsideHallRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/inside_hall_room"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/BlackColor"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:fontFamily="@font/century"/>
+
+    <Button
+        android:id="@+id/buttonToKitchen"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text="@string/to_kitchen_room"
+        android:layout_below="@+id/textInsideHallRoom"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/BlackColor"
+        android:textStyle="bold"
+        android:fontFamily="@font/century"
+        android:background="@drawable/mybutton"/>
+
+    <Button
+        android:id="@+id/buttonToLibrary"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text="@string/to_library_room"
+        android:layout_below="@+id/textInsideHallRoom"
+        android:layout_gravity="right"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/BlackColor"
+        android:textStyle="bold"
+        android:fontFamily="@font/century"
+        android:background="@drawable/mybutton"/>
+
+    <Button
+        android:id="@+id/buttonToLiving"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text="@string/to_living_room"
+        android:layout_below="@+id/textInsideHallRoom"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/BlackColor"
+        android:textStyle="bold"
+        android:fontFamily="@font/century"
+        android:background="@drawable/mybutton"/>
+
+    <ImageView
+        android:id="@+id/imgSuitcase"
+        android:layout_width="140px"
+        android:layout_height="140px"
+        android:src="@drawable/suitcase"
+        android:layout_gravity="right"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"/>
+
+</FrameLayout>
